@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Taskbar by chat gpt</title>
+    <style>body{
+        margin: 0;
+    }
+    nav {
+  background-color: #fff;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo a {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #333;
+  text-decoration: none;
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.menu-item {
+  margin: 0 10px;
+}
+
+.menu-item a {
+  color: #333;
+  text-decoration: none;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.menu-item.active a,
+.menu-item a:hover {
+  color: #00a8ff;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.search form {
+  display: flex;
+}
+
+.search input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  background-color: #f9f9f9;
+  color: #333;
+  font-size: 0.9rem;
+  width: 250px;
+}
+
+.search button[type="submit"] {
+  background-color: #00a8ff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  padding: 10px 15px;
+  color: #fff;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.search button[type="submit"]:hover {
+  background-color: #0097e6;
+}
+
+.user a {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.user i {
+  margin-right: 10px;
+  font-size: 1.3rem;
+}
+
+.user a:hover {
+  color: #00a8ff;
+}
+
+      </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="#">
+              <img src="https://i.pinimg.com/736x/71/b3/e4/71b3e4159892bb319292ab3b76900930.jpg" alt="Google Logo">
+            </a>
+          </div>
+        <ul class="menu">
+          <li class="menu-item active"><a href="#">Home</a></li>
+          <li class="menu-item"><a href="#">About</a></li>
+          <li class="menu-item"><a href="#">Services</a></li>
+          <li class="menu-item"><a href="#">Contact</a></li>
+          <li class="menu-item search">
+            <form>
+              <input type="text" placeholder="Search">
+              <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+          </li>
+          <li class="menu-item user"><a href="#"><i class="fa fa-user-circle"></i> John Doe</a></li>
+        </ul>
+      </nav>
+      
+      
+</body>
+</html>
